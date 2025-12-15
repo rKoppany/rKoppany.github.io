@@ -1,5 +1,2 @@
-:root {
-    --site-bg-color: #232020;
-    --container-bg-color: #232020;
-    --steps-bg-color: #232020;
-}
+html, body { background: #232020 !important; }
+* { outline: 2px solid red !important; }
