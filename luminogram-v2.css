@@ -1,23 +1,18 @@
 .header {
   background-color: #303333;
 }
-
 .hero-section {
   background-color: #303333;
 }
-
 .hero-section__details {
   background-color: #303333;
 }
-
 .App {
   background-color: #303333;
 }
-
 .App__container {
   background-color: #303333;
 }
-
 .booking-step {
   background-color: #303333;
 }
@@ -25,15 +20,30 @@
 .step-number--touched .step-number__circle {
     background-color: #50b9be;
 }
-
 .step-number__circle {
   background-color: #303333;
 }
-
 .booking-step--touched .booking-step__body {
-    border-color: #50b9be;
+    border-image: linear-gradient(to bottom, #50b9be, rgba(0, 0, 0, 0)) 1 100%;
 }
-
 .step-number--touched .step-number__title {
     color: #fff;
+}
+
+.service-item__name {
+  font-weight: bold;
+  color: #347577;
+  background-image: linear-gradient(90deg, #347577 0%, #50b9be 50%, #FFFFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.button--primary {
+  background-color: #347577;
+  color: #fff
+}
+.button--primary:hover {
+    background-color: #50b9be;
 }
