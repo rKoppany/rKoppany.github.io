@@ -47,3 +47,20 @@
 .button--primary:hover {
     background-color: #50b9be;
 }
+
+.select {
+  background: #303333;
+}
+.timetable {
+  background: #303333;
+}
+.appointment-calendar .fc-timeGridWeek-view .fc-col-header-cell {
+    background-color: #303333;
+}
+.appointment-calendar__cell-button {
+  background-color: #347577;
+}
+
+.appointment-calendar__cell-button:hover {
+  background-color: #50b9be;
+}
