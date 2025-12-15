@@ -1,3 +1,15 @@
 .App {
-  background-color: #232020;
+  background-color: #303333; /*Sidelines*/
+}
+
+.header {
+  background-color: #303333; /*Header*/
+}
+
+.hero-section {
+  background-color: #303333; /*Logoline*/
+}
+
+.hero-section__details {
+  background-color: #303333; /*Logoline*/
 }
