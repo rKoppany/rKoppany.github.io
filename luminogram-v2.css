@@ -1,7 +1,3 @@
-.App {
-  background-color: #303333; /*Sidelines*/
-}
-
 .header {
   background-color: #303333; /*Header*/
 }
@@ -11,5 +7,17 @@
 }
 
 .hero-section__details {
-  background-color: #303333; /*Logoline*/
+  background-color: #303333; /*Logo*/
+}
+
+.App {
+  background-color: #303333; /*Sidelines*/
+}
+
+.App__container {
+  background-color: #303333; /*Around*/
+}
+
+.booking-flow {
+  background-color: #303333; /*Background*/
 }
