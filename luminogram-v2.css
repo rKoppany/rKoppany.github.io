@@ -1,23 +1,39 @@
 .header {
-  background-color: #303333; /*Header*/
+  background-color: #303333;
 }
 
 .hero-section {
-  background-color: #303333; /*Logoline*/
+  background-color: #303333;
 }
 
 .hero-section__details {
-  background-color: #303333; /*Logo*/
+  background-color: #303333;
 }
 
 .App {
-  background-color: #303333; /*Sidelines*/
+  background-color: #303333;
 }
 
 .App__container {
-  background-color: #303333; /*Around*/
+  background-color: #303333;
 }
 
-.booking-flow {
-  background-color: #303333; /*Background*/
+.booking-step {
+  background-color: #303333;
+}
+
+.step-number--touched .step-number__circle {
+    background-color: #50b9be;
+}
+
+.step-number__circle {
+  background-color: #303333;
+}
+
+.booking-step--touched .booking-step__body {
+    border-color: #50b9be;
+}
+
+.step-number--touched .step-number__title {
+    color: #fff;
 }
