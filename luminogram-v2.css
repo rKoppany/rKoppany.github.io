@@ -129,11 +129,13 @@
 
 .appointment-calendar__cell-button {
   background-color: #347577;
+  color: #FFFFFF;
 }
 
 .appointment-calendar__cell-button:hover {
   background-color: #50b9be;
   color: #000000;
 }
+
 
 
