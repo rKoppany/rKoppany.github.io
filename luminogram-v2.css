@@ -50,7 +50,7 @@
     border-image: linear-gradient(to bottom, #50b9be, rgba(0, 0, 0, 0)) 1 100%;
 }
 .step-number--touched .step-number__title {
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .service-item__name {
@@ -85,7 +85,7 @@
 
 .button--primary {
   background-color: #347577;
-  color: #fff
+  color: #FFFFFF
 }
 .button--primary:hover {
     background-color: #50b9be;
@@ -111,7 +111,7 @@
     background-color: #303333;
 }
 
-.fc-toolbar-title {
+.fc-toolbar-chunk:nth-child(2) .fc-toolbar-title {
   color: #50b9be;
 }
 
@@ -127,6 +127,14 @@
   border-color: #303333;
 }
 
+.day__week-day {
+  color: #FFFFFF;
+}
+
+.day {
+  color: #50b9be
+}
+
 .appointment-calendar__cell-button {
   background-color: #347577;
   color: #FFFFFF;
@@ -135,7 +143,9 @@
 .appointment-calendar__cell-button:hover {
   background-color: #50b9be;
   color: #000000;
+  font-weight: bold;
 }
+
 
 
 
