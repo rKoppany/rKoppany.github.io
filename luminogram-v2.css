@@ -17,6 +17,29 @@
   background-color: #303333;
 }
 
+.header__title, .header__title-link {
+    color: #347577;
+    background-image: linear-gradient(90deg, #347577 0%, #50b9be 50%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    font-size: var(--text-default-size);
+    font-weight: 400;
+}
+
+.header__link {
+  color: #50b9be;
+  font-weight: 600;
+}
+
+.header__button {
+  color: #303333;
+  background: radial-gradient(circle, rgba(80, 185, 190, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: content-box;
+  -webkit-text-fill-color: transparent;
+}
+
 .step-number--touched .step-number__circle {
     background-color: #50b9be;
 }
@@ -40,12 +63,40 @@
   display: inline-block;
 }
 
+.booking-step__step-value {
+    font-weight: bold;
+    color: #347577;
+    background-image: linear-gradient(90deg, #347577 0%, #50b9be 50%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.service-item__details {
+  color: #FFFFFF;
+  font-weight: 500;
+  padding-left: 2vw;
+}
+
+.p--light-text {
+    color: #50b9be;
+    padding-left: 2vw;
+}
+
 .button--primary {
   background-color: #347577;
   color: #fff
 }
 .button--primary:hover {
     background-color: #50b9be;
+}
+
+.button--secondary {
+    color: #FFFFFF;
+}
+
+.button--secondary:hover {
+    color: #50b9be;
 }
 
 .select {
@@ -64,3 +115,4 @@
 .appointment-calendar__cell-button:hover {
   background-color: #50b9be;
 }
+
