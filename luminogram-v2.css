@@ -100,7 +100,9 @@
 }
 
 .select {
-  background: #303333;
+  background: #347577;
+  border: .1rem solid;
+  border-color: #50b9be;
 }
 .timetable {
   background: #303333;
@@ -108,11 +110,30 @@
 .appointment-calendar .fc-timeGridWeek-view .fc-col-header-cell {
     background-color: #303333;
 }
+
+.fc-toolbar-title {
+  color: #50b9be;
+}
+
+.fc-timegrid-slot-label-cushion {
+  background: #303333;
+  color: #50b9be;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fc-theme-standard td {
+  border: 2px solid;
+  border-color: #303333;
+}
+
 .appointment-calendar__cell-button {
   background-color: #347577;
 }
 
 .appointment-calendar__cell-button:hover {
   background-color: #50b9be;
+  color: #000000;
 }
+
 
