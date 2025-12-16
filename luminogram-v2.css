@@ -78,6 +78,10 @@
   padding-left: 2vw;
 }
 
+.service-item {
+  border-bottom: 1px dashed #FFFFFF;
+}
+
 .p--light-text {
     color: #50b9be;
     padding-left: 2vw;
@@ -108,7 +112,11 @@
   background: #303333;
 }
 .appointment-calendar .fc-timeGridWeek-view .fc-col-header-cell {
-    background-color: #303333;
+  background-color: #303333;
+}
+
+.appointment-calendar .fc-dayGridWeek-view .fc-col-header-cell {
+  background-color: #303333;
 }
 
 .fc-toolbar-chunk:nth-child(2) .fc-toolbar-title {
@@ -120,6 +128,26 @@
   color: #50b9be;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.fc-timeGridDay-view .fc-timegrid-slot-label-cushion {
+  background: #303333;
+  color: #50b9be;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fc-dayGridWeek-view .fc-scrollgrid-section-header th {
+  border-bottom: none;
+}
+
+.fc-timeGridDay-view .fc-timegrid-body {
+  border-top: none;
+}
+
+.fc-theme-standard th {
+  border: 2px solid;
+  border-color: #303333;
 }
 
 .fc-theme-standard td {
@@ -146,7 +174,59 @@
   font-weight: bold;
 }
 
+.fc-timegrid-event-harness-inset .fc-timegrid-event {
+  -webkit-box-shadow: none; 
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
+.questions__instructions {
+  color: #FF0000;
+}
 
+.question__name {
+  color: #50b9be;
+}
 
+.question__required {
+  color: #FF0000;
+}
 
+.text-input__input {
+  background: #347577;
+  border: .1rem solid #50b9be;
+  color: #FFFFFF;
+}
+
+.react-datepicker-popper {
+  background: rgba(80, 185, 190, .75);
+}
+
+.react-datepicker__header {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.react-datepicker {
+  background-color: rgba(0, 0, 0, .5);
+  color: #FFFFFF;
+}
+
+.react-datepicker__day--disabled {
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.react-datepicker__day--today {
+  font-size: large;
+}
+
+.react-datepicker__day {
+  color: #FFFFFF;
+  text-shadow: 3px 3px 3px black;
+}
+
+select.react-datepicker__year-select {
+  background-color: #347577;
+  border: .1rem solid #50b9be;
+  color: #FFFFFF;
+}
