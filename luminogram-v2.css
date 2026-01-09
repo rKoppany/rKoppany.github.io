@@ -230,3 +230,7 @@ select.react-datepicker__year-select {
   border: .1rem solid #50b9be;
   color: #FFFFFF;
 }
+
+body {
+  color: #FFFFFF;
+}
