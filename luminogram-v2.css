@@ -213,7 +213,9 @@
 }
 
 .react-datepicker__day--disabled {
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(0, 0, 0, .0);
+  font-size: xx-small;
+  text-decoration: line-through;
 }
 
 .react-datepicker__day--today {
@@ -231,6 +233,12 @@ select.react-datepicker__year-select {
   color: #FFFFFF;
 }
 
-body {
+select.react-datepicker__month-select {
+  background-color: #347577;
+  border: .1rem solid #50b9be;
   color: #FFFFFF;
+} 
+
+.react-datepicker__day, .react-datepicker__day-name, .react-datepicker__time-name {
+  color: #50b9be;
 }
