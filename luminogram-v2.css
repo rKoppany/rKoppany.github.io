@@ -260,6 +260,7 @@ select.react-datepicker__month-select {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+  border-bottom: 1px dotted #FFFFFF;
 }
 
 .reservation-preview__date {
@@ -277,6 +278,10 @@ select.react-datepicker__month-select {
 .reservation-preview__price {
     font-weight: 600;
     color: #50b9be;
+}
+
+.reservation-preview {
+  border-bottom: 1px dashed #FFFFFF;
 }
 
 .button--secondary-dangerous {
@@ -311,8 +316,24 @@ label.checkbox.reservation-end__sign-up-checkbox {
   color: #FFFFFF;
 }
 
+.reservation-end-separator__line {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #50b9be 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.reservation-end-separator__text {
+    background-color: #303333;
+    color: #50b9be;
+    padding: 1rem 0;
+}
+
 .pocket {
   background-color: #303333;
+  border: 2px solid rgba(52, 117, 119, .50);
+}
+
+.pocket--checked {
+    border: 2px solid #50b9be;
+    color: #ede1e1;
 }
 
 .pocket__name {
