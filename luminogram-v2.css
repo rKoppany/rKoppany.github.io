@@ -193,6 +193,15 @@
   color: #FF0000;
 }
 
+.select>select {
+    color: #FFFFFF;
+}
+
+option {
+    background-color: #347577;
+    color: #FFFFFF;
+}
+
 .text-input__input {
   background: #347577;
   border: .1rem solid #50b9be;
@@ -242,3 +251,92 @@ select.react-datepicker__month-select {
   border: .1rem solid #50b9be;
   color: #FFFFFF;
 } 
+
+.section__sub-heading {
+  font-weight: bold;
+  color: #347577;
+  background-image: linear-gradient(90deg, #347577 0%, #50b9be 50%, #FFFFFF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.reservation-preview__date {
+  color: #FFFFFF;
+}
+
+.reservation-preview__service {
+  color: #FFFFFF;
+}
+
+.reservation-preview__calendar {
+    color: #FFFFFF;
+}
+
+.reservation-preview__price {
+    font-weight: 600;
+    color: #50b9be;
+}
+
+.button--secondary-dangerous {
+    color: #ff2442;
+}
+
+.button--secondary-dangerous:hover {
+    color: #ff0000;
+}
+
+.reservation-end__subtotal {
+    font-size: larger;
+    margin: 1rem .5em 1rem auto;
+    color: #347577;
+    background-image: linear-gradient(90deg, #347577 0%, #50b9be 50%, #FFFFFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.checkbox__checkmark {
+    background-color: #347577;
+    border: .1rem solid #50b9be;
+}
+
+label.checkbox.reservation-end__sign-up-checkbox {
+    color: #FFFFFF;
+}
+
+.text-input__label {
+  color: #FFFFFF;
+}
+
+.pocket {
+  background-color: #303333;
+}
+
+.pocket__name {
+  color: #FFFFFF;
+}
+
+.invoice-details-form__field {
+    color: #FFFFFF;
+}
+
+.reservation-end__statement {
+    color: #FFFFFF;
+}
+
+.footer {
+  background-color: #303333;
+}
+
+.footer__logo {
+  color: #303333;
+  font-size: 0rem;
+}
+
+.footer a:link {
+  color: #303333;
+  font-size: 0rem;
+}
